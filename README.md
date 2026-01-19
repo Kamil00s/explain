@@ -30,4 +30,5 @@ sudo cp explain.py /usr/local/bin/explain
 After that to run on examples:
 
 explain ls /nonexistent
+
 explain python faulty_script.py
