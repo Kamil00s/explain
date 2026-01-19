@@ -1,16 +1,16 @@
-explain — AI-powered terminal error explainer
+# explain — AI-powered terminal error explainer
 
 explain is a small command-line tool that runs a shell command, captures its output (stdout + stderr), and asks an AI model to explain what went wrong in simple terms.
 
 
-Project Structure:
+# Project Structure:
 
     ai_explain/
     ├── explain.py          # Main script
     ├── requirements.txt    # Python dependencies
     ├── README.md           # This file
 
-Setting up:
+# Setting up:
 
 1.Clone the respository
 
@@ -26,7 +26,7 @@ chmod +x explain.py
 
 sudo cp explain.py /usr/local/bin/explain
 
-
+# Usage
 After that to run on examples:
 
 explain ls /nonexistent
