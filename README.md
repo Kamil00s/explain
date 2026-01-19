@@ -23,10 +23,11 @@ pip install -r requirements.txt
 4.Make it a global command:
 
 chmod +x explain.py
+
 sudo cp explain.py /usr/local/bin/explain
 
 
-After that to run on example:
+After that to run on examples:
 
 explain ls /nonexistent
 explain python faulty_script.py
